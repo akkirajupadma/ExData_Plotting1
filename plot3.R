@@ -19,6 +19,6 @@ xxval<-as.POSIXct(date_time)
 plot(xxval,subm1,ylab="Energy sub metering", xlab="",main= "",type="l")
 lines(xxval,subm2, col="red")
 lines(xxval, subm3, col="blue")
-legend("topright", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+legend("topright", col=c("black","red","blue"), legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),pch=20)
 dev.off()
 
